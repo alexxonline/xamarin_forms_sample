@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{8D1A1DF7-A5F2-484B-8E5D-696F5EDCBA47}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="exelxior/ViewModel/AddExpenseViewModel.cs">
+    <Files>
+      <File FileName="exelxior/Model/Category.cs" Line="60" Column="16" />
+      <File FileName="exelxior/Model/Expense.cs" Line="14" Column="3" />
+      <File FileName="exelxior/Model/ExpenseContainer.cs" Line="16" Column="1" />
+      <File FileName="exelxior/ViewModel/ExpenseListViewModel.cs" Line="11" Column="3" />
+      <File FileName="exelxior/ExpenseListPage.xaml" Line="7" Column="17" />
+      <File FileName="exelxior/ExpenseListPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="exelxior/ViewModel/AddExpenseViewModel.cs" Line="38" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.exelxior.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BDD240D0-2D4B-4764-BA02-41BAF4B79716" />
+</Properties>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:exelxior" x:Class="exelxior.exelxiorPage">
+	<StackLayout Margin="10,100,10,0">
+		<Label HorizontalTextAlignment="Center"
+			FontSize="24"
+			>Llevas gastados</Label>
+		<Label HorizontalTextAlignment="Center"
+			FontSize="75"
+			>$800</Label>
+		<Label HorizontalTextAlignment="Center">En lo que va del mes</Label>
+		<Button Text="Agregar expensa" Margin="0,50,0,0">
+		</Button>
+		<Button Text="Lista de expensas">Lista de expensas</Button>
+		<Button Text="Restaurar backup desde Azure"></Button>
+		<Button Text="Realizar backup a Azure"></Button>
+	</StackLayout>
+</ContentPage>
