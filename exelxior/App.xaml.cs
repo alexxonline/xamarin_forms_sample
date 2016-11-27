@@ -8,7 +8,7 @@ namespace exelxior
 		{
 			InitializeComponent();
 
-			MainPage = new exelxiorPage();
+			MainPage = new NavigationPage(new exelxiorPage());
 		}
 
 		protected override void OnStart()

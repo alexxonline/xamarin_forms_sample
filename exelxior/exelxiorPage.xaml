@@ -8,9 +8,9 @@
 			FontSize="75"
 			>$800</Label>
 		<Label HorizontalTextAlignment="Center">En lo que va del mes</Label>
-		<Button Text="Agregar expensa" Margin="0,50,0,0">
+		<Button Text="Agregar expensa" Margin="0,50,0,0" Clicked="OnAddExpense">
 		</Button>
-		<Button Text="Lista de expensas">Lista de expensas</Button>
+		<Button Text="Lista de expensas" Clicked="OnExpenseList">Lista de expensas</Button>
 		<Button Text="Restaurar backup desde Azure"></Button>
 		<Button Text="Realizar backup a Azure"></Button>
 	</StackLayout>

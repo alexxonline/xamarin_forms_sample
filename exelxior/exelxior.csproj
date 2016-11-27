@@ -57,6 +57,8 @@
     <Compile Include="ExpenseListPage.xaml.cs">
       <DependentUpon>ExpenseListPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Services\ISQLite.cs" />
+    <Compile Include="Services\ExpenseRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -68,6 +70,15 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.3.1.114\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="SQLitePCLRaw.core">
+      <HintPath>..\packages\SQLitePCLRaw.core.1.0.1\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_green">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.0.1\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCLRaw.batteries_green.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net">
+      <HintPath>..\packages\sqlite-net-pcl.1.2.0\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLite-net.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -75,6 +86,7 @@
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
