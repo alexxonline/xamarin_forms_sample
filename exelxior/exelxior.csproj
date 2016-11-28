@@ -59,6 +59,7 @@
     </Compile>
     <Compile Include="Services\ISQLite.cs" />
     <Compile Include="Services\ExpenseRepository.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -5,8 +5,8 @@
 			FontSize="24"
 			>Llevas gastados</Label>
 		<Label HorizontalTextAlignment="Center"
-			FontSize="75"
-			>$800</Label>
+			FontSize="45" Text="{Binding Path=TotalExpenseCountFormatted}"
+			></Label>
 		<Label HorizontalTextAlignment="Center">En lo que va del mes</Label>
 		<Button Text="Agregar expensa" Margin="0,50,0,0" Clicked="OnAddExpense">
 		</Button>

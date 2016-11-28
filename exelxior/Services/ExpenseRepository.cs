@@ -24,5 +24,10 @@ namespace exelxior
 		{
 			return Database.Delete<Expense>(id);
 		}
+
+		public int AddItem(Expense expense)
+		{
+			return Database.Insert(expense);
+		}
 	}
 }

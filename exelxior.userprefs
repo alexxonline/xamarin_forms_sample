@@ -1,19 +1,13 @@
 ﻿<Properties StartupConfiguration="{8D1A1DF7-A5F2-484B-8E5D-696F5EDCBA47}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="exelxior/Services/ISQLite.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="exelxior/ExpenseListPage.xaml.cs">
     <Files>
-      <File FileName="exelxior/Model/Category.cs" Line="60" Column="16" />
-      <File FileName="exelxior/Model/Expense.cs" Line="14" Column="3" />
-      <File FileName="exelxior/Model/ExpenseContainer.cs" Line="16" Column="1" />
-      <File FileName="exelxior/ViewModel/ExpenseListViewModel.cs" Line="11" Column="3" />
-      <File FileName="exelxior/ExpenseListPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="exelxior/ExpenseListPage.xaml" Line="1" Column="1" />
-      <File FileName="exelxior/exelxiorPage.xaml" Line="14" Column="56" />
-      <File FileName="exelxior/exelxiorPage.xaml.cs" Line="20" Column="54" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="exelxior/App.xaml" Line="1" Column="1" />
-      <File FileName="exelxior/App.xaml.cs" Line="10" Column="4" />
-      <File FileName="exelxior/AddExpensePage.xaml.cs" Line="50" Column="4" />
-      <File FileName="exelxior/Services/ISQLite.cs" Line="8" Column="36" />
+      <File FileName="exelxior/ViewModel/ExpenseListViewModel.cs" Line="17" Column="1" />
+      <File FileName="exelxior/ExpenseListPage.xaml" Line="10" Column="78" />
+      <File FileName="exelxior/ExpenseListPage.xaml.cs" Line="31" Column="15" />
+      <File FileName="exelxior/AddExpensePage.xaml.cs" Line="52" Column="25" />
+      <File FileName="exelxior/exelxiorPage.xaml.cs" Line="34" Column="1" />
+      <File FileName="exelxior/Services/ExpenseRepository.cs" Line="25" Column="1" />
+      <File FileName="exelxior/Model/Expense.cs" Line="12" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

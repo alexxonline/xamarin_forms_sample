@@ -51,6 +51,8 @@ namespace exelxior
 				Category = category,
 				Value = this.Value
 			};
+
+
 		}
 	}
 }

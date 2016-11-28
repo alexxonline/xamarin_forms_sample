@@ -44,9 +44,14 @@ namespace exelxior
 
 			var expenseObject = new Expense
 			{
-				Category = category,
+				CategoryId = category.Id,
 				Value = expense
 			};
+
+
+			var expenseRepository = new ExpenseRepository();
+			expenseRepository.AddItem(expenseObject);
+			await Navigation.PopAsync();
 		}
 	}
 }
